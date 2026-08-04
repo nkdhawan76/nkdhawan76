@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.devsparksindia.com"><img src="https://img.shields.io/badge/Company-DevSparks_India-8B5CF6?style=for-the-badge&logo=rocket&logoColor=white" alt="DevSparks India"></a>
   <a href="https://nkdhawan.dev"><img src="https://img.shields.io/badge/Portfolio-nkdhawan.dev-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/nikhil-dhawan"><img src="https://img.shields.io/badge/LinkedIn-Nikhil_Dhawan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/nkdhawan76/"><img src="https://img.shields.io/badge/LinkedIn-nkdhawan76-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/nkdhawan76"><img src="https://img.shields.io/badge/GitHub-nkdhawan76-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
@@ -93,7 +93,7 @@
 
 <p align="center">
   <b>Need a web application, custom software, or digital marketing solution?</b><br/>
-  🌐 Visit <a href="https://www.devsparksindia.com"><b>www.devsparksindia.com</b></a> | ✉️ Contact us for project inquiries!
+  🌐 Visit <a href="https://www.devsparksindia.com"><b>www.devsparksindia.com</b></a> &nbsp;|&nbsp; 💼 <a href="https://www.linkedin.com/in/nkdhawan76/"><b>LinkedIn Profile</b></a>
 </p>
 
 <br/>
