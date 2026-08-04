@@ -1,110 +1,98 @@
+# Hi there, I'm Nikil Dhawan 👋
+
+<p align="left">
+  <b>Full-Stack Engineer & Product Builder</b> — Crafting high-performance web applications, robust APIs, and intuitive digital experiences.
+</p>
+
+<p align="left">
+  <a href="https://github.com/nkdhawan76"><img src="https://img.shields.io/badge/GitHub-nkdhawan76-181717?style=flat-square&logo=github" alt="GitHub"></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+  <a href="mailto:contact@nkdhawan.dev"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=flat-square&logo=gmail" alt="Email"></a>
+</p>
+
+---
+
+## 🛠️ Core Tech Stack
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Frontend** | `React` `Next.js` `TypeScript` `JavaScript` `Tailwind CSS` `HTML5/CSS3` |
+| **Backend** | `Node.js` `Express.js` `Python` `REST APIs` `GraphQL` |
+| **Databases** | `MongoDB` `PostgreSQL` `MySQL` `Redis` |
+| **DevOps & Tools** | `Git` `GitHub` `Docker` `Vercel` `Postman` `VS Code` |
+
+---
+
+## 🚀 Featured Projects & Work Showcase
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🌐 Full-Stack Web App</h3>
+      <p align="center">
+        <img src="https://placehold.co/600x320/0f172a/38bdf8?text=Full-Stack+Web+Application" alt="Full-Stack Web App" width="100%" />
+      </p>
+      <p><b>Description:</b> Modern web application with real-time data sync, state management, and responsive user interface.</p>
+      <p><b>Tech Stack:</b> <code>React</code> <code>Node.js</code> <code>MongoDB</code> <code>Tailwind</code></p>
+      <p align="center">
+        <a href="https://github.com/nkdhawan76"><b>📁 Repository</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/nkdhawan76"><b>⚡ Live Demo</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📊 Analytics & Admin Dashboard</h3>
+      <p align="center">
+        <img src="https://placehold.co/600x320/0f172a/818cf8?text=Analytics+%26+Admin+Dashboard" alt="Analytics Dashboard" width="100%" />
+      </p>
+      <p><b>Description:</b> Interactive management dashboard providing real-time data metrics, user controls, and reporting.</p>
+      <p><b>Tech Stack:</b> <code>Next.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Prisma</code></p>
+      <p align="center">
+        <a href="https://github.com/nkdhawan76"><b>📁 Repository</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/nkdhawan76"><b>⚡ Live Demo</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🤖 API Service & Automation</h3>
+      <p align="center">
+        <img src="https://placehold.co/600x320/0f172a/34d399?text=API+Service+%26+Automation" alt="API Service" width="100%" />
+      </p>
+      <p><b>Description:</b> Scalable backend API architecture built for fast data processing, authentication, and integration.</p>
+      <p><b>Tech Stack:</b> <code>Python</code> <code>FastAPI</code> <code>Docker</code> <code>REST</code></p>
+      <p align="center">
+        <a href="https://github.com/nkdhawan76"><b>📁 Repository</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/nkdhawan76"><b>⚡ Live Demo</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📱 Interactive UI Component Suite</h3>
+      <p align="center">
+        <img src="https://placehold.co/600x320/0f172a/f43f5e?text=UI+Component+Library" alt="UI Component Library" width="100%" />
+      </p>
+      <p><b>Description:</b> Reusable component system focusing on accessibility, micro-interactions, and visual polish.</p>
+      <p><b>Tech Stack:</b> <code>TypeScript</code> <code>React</code> <code>Tailwind CSS</code> <code>Storybook</code></p>
+      <p align="center">
+        <a href="https://github.com/nkdhawan76"><b>📁 Repository</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/nkdhawan76"><b>⚡ Live Demo</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📈 Activity & GitHub Overview
+
 <div align="center">
-  <!-- Capsule Render Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,20,30&height=220&section=header&text=Nikil%20Dhawan&fontSize=50&fontAlignY=35&animation=fadeIn&desc=Full-Stack%20Engineer%20%7C%20Creative%20Developer%20%7C%20Tech%20Architect&descAlignY=62&descSize=20" width="100%" />
-
-  <!-- Animated Typing SVG -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=F43F5E&center=true&vcenter=true&width=600&lines=Building+next-gen+web+applications...;Crafting+pixel-perfect+user+experiences...;Turning+complex+problems+into+clean+code...;Welcome+to+my+digital+universe!+%E2%9C%A8" alt="Typing SVG" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/nkdhawan76">
-    <img src="https://img.shields.io/github/followers/nkdhawan76?label=Followers&style=for-the-badge&color=10B981&logo=github&logoColor=white" alt="Followers">
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=nkdhawan76&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
   &nbsp;
-  <a href="https://github.com/nkdhawan76?tab=repositories">
-    <img src="https://img.shields.io/github/stars/nkdhawan76?label=Total%20Stars&style=for-the-badge&color=F59E0B&logo=github&logoColor=white" alt="Stars">
-  </a>
-  &nbsp;
-  <a href="https://github.com/nkdhawan76">
-    <img src="https://komarev.com/ghpvc/?username=nkdhawan76&label=Profile%20Views&color=6366F1&style=for-the-badge" alt="Profile Views">
-  </a>
-</div>
-
----
-
-### 👨‍💻 About Me
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <pre>
-<b>nikil_dhawan.json</b>
-{
-  "name": "Nikil Dhawan",
-  "role": "Full-Stack Software Engineer",
-  "location": "India 🇮🇳",
-  "code": ["JavaScript", "TypeScript", "Python"],
-  "architecture": ["REST APIs", "Microservices", "Responsive UI"],
-  "passions": ["Clean Code", "AI/ML", "UI/UX Magic"],
-  "current_focus": "Scaling Web Apps & Modern Architecture"
-}
-        </pre>
-      </td>
-      <td width="50%" valign="top">
-        <h4>⚡ Quick Facts</h4>
-        <ul>
-          <li>🔭 Currently building high-performance web applications.</li>
-          <li>🎯 Goal: Master cloud architectures & AI integration.</li>
-          <li>⚡ Fun Fact: I turn coffee into production-ready code. ☕</li>
-          <li>💬 Ask me about: React, Node.js, Next.js & Modern Web.</li>
-          <li>📫 How to reach me: Connect on GitHub & Socials.</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### 🚀 Tech Arsenal
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,html,css,nodejs,express,python,cpp,mongodb,mysql,git,github,vscode,docker,postman,figma,vercel&perline=10" alt="Tech Stack Icons" />
-  </a>
-</div>
-
----
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=nkdhawan76&theme=radical&column=4&margin-w=15&margin-h=15&no-bg=true" alt="GitHub Trophies" />
-  </a>
-</div>
-
----
-
-### 📊 GitHub Performance & Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nkdhawan76&show_icons=true&theme=dracula&hide_border=false&border_radius=10&count_private=true" height="180" alt="Stats Card" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkdhawan76&layout=compact&theme=dracula&hide_border=false&border_radius=10" height="180" alt="Top Languages Card" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nkdhawan76&theme=dracula&hide_border=false&border_radius=10" alt="Streak Stats Card" />
-</div>
-
----
-
-### 💭 Daily Developer Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkdhawan76&layout=compact&theme=github_dark&hide_border=true" height="165" alt="Top Languages" />
 </div>
 
 ---
 
 <div align="center">
-  <p><i>🔥 "Code is like humor. When you have to explain it, it’s bad." — Cory House</i></p>
-  <p><b>Crafted with ❤️ by Nikil Dhawan</b></p>
+  <p><b>Let's build something impactful together!</b></p>
+  <p>📫 Connect with me: <a href="https://github.com/nkdhawan76">@nkdhawan76 on GitHub</a></p>
 </div>
