@@ -1,79 +1,110 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&pause=1000&color=38BDF8&center=true&vcenter=true&width=600&lines=Hi+%F0%9F%90%8B%2C+I'm+Nikil+Dhawan;Full+Stack+Developer+%26+Tech+Enthusiast;Building+Modern+Web+Applications;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
-</div>
+  <!-- Capsule Render Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,20,30&height=220&section=header&text=Nikil%20Dhawan&fontSize=50&fontAlignY=35&animation=fadeIn&desc=Full-Stack%20Engineer%20%7C%20Creative%20Developer%20%7C%20Tech%20Architect&descAlignY=62&descSize=20" width="100%" />
 
-<h3 align="center">⚡ Turning ideas into elegant code & impactful digital solutions ⚡</h3>
-
-<p align="center">
-  <a href="https://github.com/nkdhawan76">
-    <img src="https://img.shields.io/github/followers/nkdhawan76?label=Followers&style=for-the-badge&color=0284C7&logo=github" alt="Followers">
+  <!-- Animated Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=F43F5E&center=true&vcenter=true&width=600&lines=Building+next-gen+web+applications...;Crafting+pixel-perfect+user+experiences...;Turning+complex+problems+into+clean+code...;Welcome+to+my+digital+universe!+%E2%9C%A8" alt="Typing SVG" />
   </a>
-  <a href="https://github.com/nkdhawan76?tab=repositories">
-    <img src="https://img.shields.io/github/stars/nkdhawan76?label=Stars&style=for-the-badge&color=EAB308&logo=github" alt="Stars">
-  </a>
-</p>
-
----
-
-### 💫 About Me
-
-```text
-💡  Passionate developer focused on creating scalable web applications & clean UI experiences.
-🚀  Constantly learning, experimenting with modern frameworks, and building impactful projects.
-🤝  Open for collaboration on interesting open-source projects & tech innovations.
-📫  Feel free to explore my repositories and connect with me!
-```
-
----
-
-### 🛠️ Tech Stack & Skills
-
-#### 🌐 Frontend & UI
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-</p>
-
-#### ⚙️ Backend & Databases
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-</p>
-
-#### 🛠️ Developer Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM" />
-</p>
-
----
-
-### 📊 GitHub Analytics & Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nkdhawan76&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Nikil's GitHub Stats" height="175"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkdhawan76&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="175"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nkdhawan76&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <a href="https://github.com/nkdhawan76">
+    <img src="https://img.shields.io/github/followers/nkdhawan76?label=Followers&style=for-the-badge&color=10B981&logo=github&logoColor=white" alt="Followers">
+  </a>
+  &nbsp;
+  <a href="https://github.com/nkdhawan76?tab=repositories">
+    <img src="https://img.shields.io/github/stars/nkdhawan76?label=Total%20Stars&style=for-the-badge&color=F59E0B&logo=github&logoColor=white" alt="Stars">
+  </a>
+  &nbsp;
+  <a href="https://github.com/nkdhawan76">
+    <img src="https://komarev.com/ghpvc/?username=nkdhawan76&label=Profile%20Views&color=6366F1&style=for-the-badge" alt="Profile Views">
+  </a>
 </div>
 
 ---
 
-<p align="center">
-  <i>⚡ Designed with ❤️ by <a href="https://github.com/nkdhawan76">Nikil Dhawan</a></i>
-</p>
+### 👨‍💻 About Me
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <pre>
+<b>nikil_dhawan.json</b>
+{
+  "name": "Nikil Dhawan",
+  "role": "Full-Stack Software Engineer",
+  "location": "India 🇮🇳",
+  "code": ["JavaScript", "TypeScript", "Python"],
+  "architecture": ["REST APIs", "Microservices", "Responsive UI"],
+  "passions": ["Clean Code", "AI/ML", "UI/UX Magic"],
+  "current_focus": "Scaling Web Apps & Modern Architecture"
+}
+        </pre>
+      </td>
+      <td width="50%" valign="top">
+        <h4>⚡ Quick Facts</h4>
+        <ul>
+          <li>🔭 Currently building high-performance web applications.</li>
+          <li>🎯 Goal: Master cloud architectures & AI integration.</li>
+          <li>⚡ Fun Fact: I turn coffee into production-ready code. ☕</li>
+          <li>💬 Ask me about: React, Node.js, Next.js & Modern Web.</li>
+          <li>📫 How to reach me: Connect on GitHub & Socials.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 🚀 Tech Arsenal
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,html,css,nodejs,express,python,cpp,mongodb,mysql,git,github,vscode,docker,postman,figma,vercel&perline=10" alt="Tech Stack Icons" />
+  </a>
+</div>
+
+---
+
+### 🏆 GitHub Trophies
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=nkdhawan76&theme=radical&column=4&margin-w=15&margin-h=15&no-bg=true" alt="GitHub Trophies" />
+  </a>
+</div>
+
+---
+
+### 📊 GitHub Performance & Statistics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nkdhawan76&show_icons=true&theme=dracula&hide_border=false&border_radius=10&count_private=true" height="180" alt="Stats Card" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkdhawan76&layout=compact&theme=dracula&hide_border=false&border_radius=10" height="180" alt="Top Languages Card" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nkdhawan76&theme=dracula&hide_border=false&border_radius=10" alt="Streak Stats Card" />
+</div>
+
+---
+
+### 💭 Daily Developer Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
+</div>
+
+---
+
+<div align="center">
+  <p><i>🔥 "Code is like humor. When you have to explain it, it’s bad." — Cory House</i></p>
+  <p><b>Crafted with ❤️ by Nikil Dhawan</b></p>
+</div>
