@@ -17,7 +17,7 @@
   <a href="https://devsparksindia.com/"><img src="https://img.shields.io/badge/Portfolio-devsparksindia.com-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/nkdhawan76/"><img src="https://img.shields.io/badge/LinkedIn-nkdhawan76-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/nkdhawan76"><img src="https://img.shields.io/badge/GitHub-nkdhawan76-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <img src="https://img.shields.io/badge/Contributions-3%2C041%2B_in_the_last_year-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="3,041 contributions in the last year" />
+  <img src="https://img.shields.io/badge/Contributions-3%2C044%2B_in_the_last_year-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="3,044 contributions in the last year" />
   <img src="https://komarev.com/ghpvc/?username=nkdhawan76&label=Profile%20Views&color=8b5cf6&style=for-the-badge" alt="Profile Views" />
 </p>
 
