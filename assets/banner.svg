@@ -1,0 +1,61 @@
+<svg width="100%" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="wave-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#EC4899" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="wave-2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="220" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="44" x2="1200" y2="44"/>
+    <line x1="0" y1="88" x2="1200" y2="88"/>
+    <line x1="0" y1="132" x2="1200" y2="132"/>
+    <line x1="0" y1="176" x2="1200" y2="176"/>
+    <line x1="200" y1="0" x2="200" y2="220"/>
+    <line x1="400" y1="0" x2="400" y2="220"/>
+    <line x1="600" y1="0" x2="600" y2="220"/>
+    <line x1="800" y1="0" x2="800" y2="220"/>
+    <line x1="1000" y1="0" x2="1000" y2="220"/>
+  </g>
+
+  <!-- Flowing Waves at Bottom -->
+  <path d="M0,160 C320,120 420,200 700,160 C900,130 1050,190 1200,165 L1200,220 L0,220 Z" fill="url(#wave-1)"/>
+  <path d="M0,175 C250,145 450,210 750,175 C950,150 1100,195 1200,185 L1200,220 L0,220 Z" fill="url(#wave-2)"/>
+
+  <!-- Floating Glow Orbs -->
+  <circle cx="150" cy="50" r="120" fill="#8B5CF6" opacity="0.15" filter="url(#glow)"/>
+  <circle cx="1050" cy="70" r="140" fill="#EC4899" opacity="0.12" filter="url(#glow)"/>
+
+  <!-- Main Title -->
+  <text x="600" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#text-grad)" letter-spacing="1">
+    Nikhil Dhawan
+  </text>
+
+  <!-- Tagline Subtitle -->
+  <text x="600" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#E2E8F0" letter-spacing="0.5">
+    🚀 Founder @DevSparks India &nbsp;|&nbsp; ⚡ Full-Stack Architect &nbsp;|&nbsp; 💳 FinTech &amp; AI Builder
+  </text>
+</svg>
