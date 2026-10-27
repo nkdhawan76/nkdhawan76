@@ -18,6 +18,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build custom 3D Contribution Skyline & Data
+        run: |
+          npm run build
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"

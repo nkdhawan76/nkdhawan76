@@ -1,0 +1,14 @@
+{
+  "name": "nkdhawan76-github-profile",
+  "version": "1.0.0",
+  "description": "Nikhil Dhawan's 3D GitHub Contribution Skyline and Profile Suite",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-github.mjs",
+    "build:skyline": "node scripts/generate-skyline-svg.mjs",
+    "build": "node scripts/fetch-github.mjs && node scripts/generate-skyline-svg.mjs"
+  },
+  "keywords": ["github-profile", "3d-contributions", "skyline", "canvas"],
+  "author": "Nikhil Dhawan",
+  "license": "MIT"
+}

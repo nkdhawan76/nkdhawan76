@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil Dhawan — Interactive 3D GitHub Contributions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border: #E2E8F0;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --primary: #10B981;
+      --primary-dark: #059669;
+      --c0: #EBEDF0;
+      --c1: #9BE9A8;
+      --c2: #40C463;
+      --c3: #30A14E;
+      --c4: #216E39;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 30px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 16px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #0F172A;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      background: #ECFDF5;
+      color: #065F46;
+      border: 1px solid #A7F3D0;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    /* Tabs */
+    .tabs-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      background: #EDF2F7;
+      padding: 6px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tab-btn:hover {
+      color: var(--text);
+    }
+
+    .tab-btn.active {
+      background: var(--card-bg);
+      color: #0F172A;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+
+    /* Main Display Card */
+    .viewport-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
+      position: relative;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .counter-hero {
+      font-size: 24px;
+      font-weight: 800;
+      color: #1E293B;
+    }
+
+    .meta-tag {
+      font-size: 13px;
+      color: #64748B;
+    }
+
+    .btn-replay {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #F1F5F9;
+      border: 1px solid #CBD5E1;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-replay:hover {
+      background: #E2E8F0;
+      color: #0F172A;
+    }
+
+    .canvas-container {
+      position: relative;
+      width: 100%;
+      height: 380px;
+      border-radius: 10px;
+      background: #FAFAFA;
+      border: 1px dashed #E2E8F0;
+      overflow: hidden;
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Tooltip */
+    #tooltip {
+      position: absolute;
+      display: none;
+      background: #0F172A;
+      color: #FFFFFF;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      pointer-events: none;
+      z-index: 100;
+      white-space: nowrap;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transform: translate(-50%, -130%);
+    }
+
+    /* Footer Legend */
+    .legend-row {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 6px;
+      margin-top: 16px;
+      font-size: 12px;
+      color: #64748B;
+    }
+
+    .swatch {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+
+    @media (max-width: 768px) {
+      .canvas-container { height: 300px; }
+      .counter-hero { font-size: 20px; }
+      body { padding: 16px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div>
+      <h1>
+        <span>🏙️</span>
+        <span>GitHub 3D Contribution City</span>
+        <span class="badge">Live Real Data</span>
+      </h1>
+      <p class="subtitle">
+        Visualizing <strong>nkdhawan76</strong>'s software engineering contributions across all 365 days.
+      </p>
+    </div>
+  </header>
+
+  <nav class="tabs-nav" id="tabsNav">
+    <button class="tab-btn active" data-mode="skyline">🏙️ 3D Skyline City</button>
+    <button class="tab-btn" data-mode="grid">⚡ Drop-In Grid Wave</button>
+    <button class="tab-btn" data-mode="pulse">📈 Weekly Pulse Waterfall</button>
+    <button class="tab-btn" data-mode="ring">⭕ 7-Day Weekday Ring</button>
+    <button class="tab-btn" data-mode="streak">🔥 Streak Trail Tracker</button>
+    <button class="tab-btn" data-mode="terminal">💻 Terminal Scramble</button>
+  </nav>
+
+  <div class="viewport-card" id="cardElement">
+    <div class="card-top">
+      <div>
+        <div class="counter-hero" id="counterNumber">0 contributions</div>
+        <div class="meta-tag" id="modeDescription">
+          Small buildings = low commits • Towers = high commit volume
+        </div>
+      </div>
+      <button class="btn-replay" id="replayBtn">↻ Replay Animation</button>
+    </div>
+
+    <div class="canvas-container" id="canvasBox">
+      <canvas id="mainCanvas"></canvas>
+      <div id="tooltip"></div>
+    </div>
+
+    <div class="legend-row">
+      <span>Less</span>
+      <div class="swatch" style="background:var(--c0); border:1px solid #CBD5E1;"></div>
+      <div class="swatch" style="background:var(--c1)"></div>
+      <div class="swatch" style="background:var(--c2)"></div>
+      <div class="swatch" style="background:var(--c3)"></div>
+      <div class="swatch" style="background:var(--c4)"></div>
+      <span>More</span>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+  // Load local data
+  let data;
+  try {
+    const res = await fetch('./data/github.json');
+    data = await res.json();
+  } catch (e) {
+    console.error('Failed to load local data/github.json', e);
+  }
+
+  const { total, days, bestDay } = data;
+  const isReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Colors
+  const COLORS = {
+    0: '#EBEDF0',
+    1: '#9BE9A8',
+    2: '#40C463',
+    3: '#30A14E',
+    4: '#216E39'
+  };
+
+  const SHADED = {
+    0: { top: '#EBEDF0', front: '#D5D9E0', side: '#BFC5D1' },
+    1: { top: '#9BE9A8', front: '#7AD188', side: '#5CB96B' },
+    2: { top: '#40C463', front: '#34A853', side: '#288842' },
+    3: { top: '#30A14E', front: '#26873F', side: '#1D6B31' },
+    4: { top: '#216E39', front: '#18562B', side: '#103F1E' }
+  };
+
+  const canvas = document.getElementById('mainCanvas');
+  const ctx = canvas.getContext('2d');
+  const tooltip = document.getElementById('tooltip');
+  const counterNumber = document.getElementById('counterNumber');
+  const modeDescription = document.getElementById('modeDescription');
+  const replayBtn = document.getElementById('replayBtn');
+  const tabsNav = document.getElementById('tabsNav');
+  const cardElement = document.getElementById('cardElement');
+
+  let currentMode = 'skyline';
+  let startTime = null;
+  let isVisible = false;
+  let animId = null;
+
+  // Organize days into weeks
+  const weeks = [];
+  let curWeek = [];
+  for (let i = 0; i < days.length; i++) {
+    const d = days[i];
+    const dow = new Date(d.date + 'T00:00:00Z').getUTCDay();
+    curWeek.push({ ...d, dow, index: i });
+    if (dow === 6 || i === days.length - 1) {
+      weeks.push(curWeek);
+      curWeek = [];
+    }
+  }
+
+  // Pure draw functions: draw(ctx, w, h, t)
+  function drawSkyline(ctx, w, h, t) {
+    ctx.clearRect(0, 0, w, h);
+    const originX = 35;
+    const originY = 55;
+    const tileW = Math.max(9, (w - originX - 50) / weeks.length - 2.5);
+    const tileD = 8;
+    const angleX = 5;
+    const maxH = 120;
+
+    for (let r = 0; r < 7; r++) {
+      for (let c = 0; c < weeks.length; c++) {
+        const d = weeks[c].find(item => item.dow === r);
+        if (!d) continue;
+
+        const delay = (r * 160) + (c * 12);
+        let progress = 1;
+        if (!isReducedMotion) {
+          progress = Math.max(0, Math.min(1, (t - delay) / 550));
+          const s = 1.7;
+          progress = --progress * progress * ((s + 1) * progress + s) + 1;
+          progress = Math.max(0, progress);
+        }
+
+        const bx = originX + c * (tileW + 2.5);
+        const by = originY + maxH + r * (tileD + 8.5);
+        const targetH = d.count > 0 ? Math.max(6, Math.min(maxH, Math.sqrt(d.count) * 9.5)) : 2.5;
+        const curH = targetH * progress;
+        const topY = by - curH;
+
+        const colors = SHADED[d.level] || SHADED[0];
+
+        // Top face
+        ctx.fillStyle = colors.top;
+        ctx.beginPath();
+        ctx.moveTo(bx, topY);
+        ctx.lineTo(bx + tileW, topY);
+        ctx.lineTo(bx + tileW + angleX, topY - tileD);
+        ctx.lineTo(bx + angleX, topY - tileD);
+        ctx.closePath();
+        ctx.fill();
+
+        // Front face
+        ctx.fillStyle = colors.front;
+        ctx.fillRect(bx, topY, tileW, curH);
+
+        // Side face
+        ctx.fillStyle = colors.side;
+        ctx.beginPath();
+        ctx.moveTo(bx + tileW, topY);
+        ctx.lineTo(bx + tileW + angleX, topY - tileD);
+        ctx.lineTo(bx + tileW + angleX, by - tileD);
+        ctx.lineTo(bx + tileW, by);
+        ctx.closePath();
+        ctx.fill();
+
+        // Best Day pointer
+        if (d.date === bestDay.date && t > 1800) {
+          ctx.strokeStyle = '#0F172A';
+          ctx.lineWidth = 1.5;
+          ctx.setLineDash([2, 2]);
+          ctx.beginPath();
+          ctx.moveTo(bx + tileW / 2, topY);
+          ctx.lineTo(bx + tileW / 2, topY - 45);
+          ctx.stroke();
+          ctx.setLineDash([]);
+
+          ctx.fillStyle = '#0F172A';
+          ctx.beginPath();
+          ctx.arc(bx + tileW / 2, topY, 2.5, 0, Math.PI * 2);
+          ctx.fill();
+
+          ctx.font = 'bold 12px Inter, sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText(`${d.count} commits (Best Day)`, bx + tileW / 2, topY - 52);
+        }
+      }
+    }
+  }
+
+  function drawGrid(ctx, w, h, t) {
+    ctx.clearRect(0, 0, w, h);
+    const originX = 30;
+    const originY = 50;
+    const size = Math.max(6, (w - originX - 40) / weeks.length - 2.5);
+
+    for (let c = 0; c < weeks.length; c++) {
+      for (let r = 0; r < 7; r++) {
+        const d = weeks[c].find(item => item.dow === r);
+        if (!d) continue;
+
+        const delay = (c + r) * 16;
+        let progress = 1;
+        if (!isReducedMotion) {
+          progress = Math.max(0, Math.min(1, (t - delay) / 400));
+          const s = 1.5;
+          progress = --progress * progress * ((s + 1) * progress + s) + 1;
+          progress = Math.max(0, progress);
+        }
+
+        const x = originX + c * (size + 2.5);
+        const targetY = originY + r * (size + 2.5);
+        const y = targetY - (1 - progress) * 40;
+
+        ctx.globalAlpha = Math.min(1, progress);
+        ctx.fillStyle = COLORS[d.level];
+        ctx.beginPath();
+        ctx.roundRect(x, y, size, size, 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      }
+    }
+  }
+
+  function drawPulse(ctx, w, h, t) {
+    ctx.clearRect(0, 0, w, h);
+    const originX = 35;
+    const lineY = 60;
+    const maxLineH = 45;
+    const weekW = (w - originX - 40) / weeks.length;
+
+    // Calculate weekly sums
+    const weeklySums = weeks.map(wk => wk.reduce((acc, d) => acc + d.count, 0));
+    const maxWeekly = Math.max(...weeklySums, 1);
+
+    // Draw running curve
+    const waveProgress = Math.min(1, t / 1400);
+    const visibleWeeks = Math.floor(weeks.length * waveProgress);
+
+    ctx.strokeStyle = '#10B981';
+    ctx.lineWidth = 2.5;
+    ctx.beginPath();
+    for (let i = 0; i <= visibleWeeks; i++) {
+      const x = originX + i * weekW;
+      const y = lineY - (weeklySums[i] / maxWeekly) * maxLineH;
+      if (i === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+
+    // Riding dot
+    if (visibleWeeks < weeks.length) {
+      const rx = originX + visibleWeeks * weekW;
+      const ry = lineY - (weeklySums[visibleWeeks] / maxWeekly) * maxLineH;
+      ctx.fillStyle = '#059669';
+      ctx.beginPath();
+      ctx.arc(rx, ry, 5, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // Pour down into grid
+    const gridOriginY = 120;
+    const size = Math.max(5, weekW - 2.5);
+    for (let c = 0; c < weeks.length; c++) {
+      const pourDelay = 700 + c * 25;
+      if (t < pourDelay) continue;
+      const progress = Math.min(1, (t - pourDelay) / 350);
+
+      for (let r = 0; r < 7; r++) {
+        const d = weeks[c].find(item => item.dow === r);
+        if (!d) continue;
+
+        const x = originX + c * weekW;
+        const targetY = gridOriginY + r * (size + 2.5);
+        const curY = lineY + (targetY - lineY) * progress;
+
+        ctx.fillStyle = COLORS[d.level];
+        ctx.beginPath();
+        ctx.roundRect(x, curY, size, size, 2);
+        ctx.fill();
+      }
+    }
+  }
+
+  function drawRing(ctx, w, h, t) {
+    ctx.clearRect(0, 0, w, h);
+    const cx = w / 2;
+    const cy = h / 2;
+    const baseR = 30;
+    const ringGap = 16;
+    const totalSpokes = weeks.length;
+
+    const angleProgress = isReducedMotion ? 1 : Math.min(1, t / 2000);
+    const curAngle = angleProgress * Math.PI * 2;
+
+    for (let r = 0; r < 7; r++) {
+      const radius = baseR + r * ringGap;
+      for (let c = 0; c < totalSpokes; c++) {
+        const theta = (c / totalSpokes) * Math.PI * 2 - Math.PI / 2;
+        if (theta + Math.PI / 2 > curAngle) continue;
+
+        const d = weeks[c].find(item => item.dow === r);
+        if (!d) continue;
+
+        const x = cx + Math.cos(theta) * radius;
+        const y = cy + Math.sin(theta) * radius;
+
+        ctx.fillStyle = COLORS[d.level];
+        ctx.beginPath();
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    // Sweeping radar hand
+    if (angleProgress < 1) {
+      ctx.strokeStyle = '#10B981';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.lineTo(cx + Math.cos(curAngle - Math.PI / 2) * (baseR + 7 * ringGap + 10), cy + Math.sin(curAngle - Math.PI / 2) * (baseR + 7 * ringGap + 10));
+      ctx.stroke();
+    }
+  }
+
+  function drawStreak(ctx, w, h, t) {
+    ctx.clearRect(0, 0, w, h);
+    const originX = 30;
+    const originY = 50;
+    const size = Math.max(6, (w - originX - 40) / weeks.length - 2.5);
+
+    // Render underlying grid dimly
+    for (let c = 0; c < weeks.length; c++) {
+      for (let r = 0; r < 7; r++) {
+        const d = weeks[c].find(item => item.dow === r);
+        if (!d) continue;
+        const x = originX + c * (size + 2.5);
+        const y = originY + r * (size + 2.5);
+        ctx.fillStyle = COLORS[d.level];
+        ctx.globalAlpha = 0.35;
+        ctx.beginPath();
+        ctx.roundRect(x, y, size, size, 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      }
+    }
+
+    // Animate trace through days
+    const totalDays = days.length;
+    const activeIndex = Math.floor(Math.min(1, t / 3000) * totalDays);
+
+    ctx.strokeStyle = '#F59E0B';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    let prevPt = null;
+
+    for (let i = 0; i <= activeIndex; i++) {
+      const d = days[i];
+      const wIdx = Math.floor(i / 7);
+      const rIdx = i % 7;
+      const x = originX + wIdx * (size + 2.5) + size / 2;
+      const y = originY + rIdx * (size + 2.5) + size / 2;
+
+      if (d.count > 0) {
+        if (!prevPt) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+        prevPt = { x, y };
+
+        // Highlight
+        ctx.fillStyle = '#F59E0B';
+        ctx.beginPath();
+        ctx.arc(x, y, size / 2.2, 0, Math.PI * 2);
+        ctx.fill();
+      } else {
+        prevPt = null;
+      }
+    }
+    ctx.stroke();
+  }
+
+  function drawTerminal(ctx, w, h, t) {
+    ctx.clearRect(0, 0, w, h);
+    ctx.font = '12px "JetBrains Mono", monospace';
+    const originX = 25;
+    const originY = 40;
+    const glyphs = ['.', ':', '+', '#', '@'];
+
+    ctx.fillStyle = '#64748B';
+    ctx.fillText('> git log --contributions --year 2026', originX, 22);
+
+    for (let r = 0; r < 7; r++) {
+      for (let c = 0; c < weeks.length; c++) {
+        const d = weeks[c].find(item => item.dow === r);
+        if (!d) continue;
+
+        const x = originX + c * 15;
+        const y = originY + r * 18;
+
+        const delay = (c * 20) + (r * 15);
+        if (t < delay) continue;
+
+        const isSettled = t > delay + 400;
+        let char = glyphs[d.level];
+        if (!isSettled && !isReducedMotion) {
+          const scramble = ['*', '%', '&', '!', '?', '#', '~'];
+          char = scramble[Math.floor(Math.random() * scramble.length)];
+          ctx.fillStyle = '#065F46';
+        } else {
+          ctx.fillStyle = COLORS[d.level] === '#EBEDF0' ? '#CBD5E1' : COLORS[d.level];
+        }
+
+        ctx.fillText(char, x, y);
+      }
+    }
+  }
+
+  function render(now) {
+    if (!isVisible) return;
+    if (!startTime) startTime = now;
+    const t = isReducedMotion ? Infinity : now - startTime;
+
+    // Device Pixel Ratio scaling
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    const rect = canvas.getBoundingClientRect();
+    if (canvas.width !== Math.floor(rect.width * dpr) || canvas.height !== Math.floor(rect.height * dpr)) {
+      canvas.width = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+    }
+
+    ctx.save();
+    ctx.scale(dpr, dpr);
+
+    if (currentMode === 'skyline') drawSkyline(ctx, rect.width, rect.height, t);
+    else if (currentMode === 'grid') drawGrid(ctx, rect.width, rect.height, t);
+    else if (currentMode === 'pulse') drawPulse(ctx, rect.width, rect.height, t);
+    else if (currentMode === 'ring') drawRing(ctx, rect.width, rect.height, t);
+    else if (currentMode === 'streak') drawStreak(ctx, rect.width, rect.height, t);
+    else if (currentMode === 'terminal') drawTerminal(ctx, rect.width, rect.height, t);
+
+    // Number counting up
+    const countProgress = isReducedMotion ? 1 : Math.min(1, t / 1800);
+    const animatedCount = Math.floor(total * countProgress);
+    counterNumber.textContent = `${animatedCount.toLocaleString()} contributions in the last year`;
+
+    ctx.restore();
+    animId = requestAnimationFrame(render);
+  }
+
+  // IntersectionObserver: trigger when 40% in view
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        isVisible = true;
+        if (!animId) animId = requestAnimationFrame(render);
+      } else {
+        isVisible = false;
+        if (animId) {
+          cancelAnimationFrame(animId);
+          animId = null;
+        }
+      }
+    }
+  }, { threshold: 0.4 });
+
+  observer.observe(cardElement);
+
+  replayBtn.onclick = () => {
+    startTime = performance.now();
+    if (!animId && isVisible) animId = requestAnimationFrame(render);
+  };
+
+  tabsNav.addEventListener('click', (e) => {
+    const btn = e.target.closest('.tab-btn');
+    if (!btn) return;
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentMode = btn.dataset.mode;
+    startTime = performance.now();
+
+    const descMap = {
+      skyline: '🏙️ 3D Skyline City — Small building = low commits, Tall skyscraper = high volume',
+      grid: '⚡ Drop-In Grid Wave — Cells drop with elastic overshoot',
+      pulse: '📈 Weekly Pulse — Weekly totals flow as a curve into the grid',
+      ring: '⭕ Weekday Ring — 7 concentric circles swept open like a clock',
+      streak: '🔥 Streak Trail — Golden path tracing unbroken contribution days',
+      terminal: '💻 Terminal Scramble — Hacker ASCII glyphs (. : + # @) settling by commit level'
+    };
+    modeDescription.textContent = descMap[currentMode] || '';
+  });
+</script>
+
+</body>
+</html>

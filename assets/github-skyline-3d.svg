@@ -1,0 +1,453 @@
+<svg width="100%" height="auto" viewBox="0 0 1185 486" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .building { transition: transform 0.2s ease; cursor: pointer; }
+    .building:hover { opacity: 0.85; }
+  </style>
+  <rect width="1185" height="486" rx="12" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
+  
+  <!-- Header Title -->
+  <text x="30" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#24292F">
+    3,041 contributions in the last year
+  </text>
+  <text x="30" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#57609A">
+    🏙️ 3D Contribution Skyline — Small buildings = few commits, Skyscrapers = high commit volume
+  </text>
+
+
+    <text x="25" y="284" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#57606A">
+      Mon
+    </text>
+  
+
+    <text x="25" y="336" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#57606A">
+      Wed
+    </text>
+  
+
+    <text x="25" y="388" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#57606A">
+      Fri
+    </text>
+  
+
+    <text x="83" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#57606A">
+      Oct
+    </text>
+  
+
+      <g class="building" data-date="2025-10-26" data-count="0">
+        <polygon points="71,247 87,247 87,250 71,250" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="87,247 93,235 93,238 87,250" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="71,247 87,247 93,235 77,235" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-10-27" data-count="0">
+        <polygon points="70,273 86,273 86,276 70,276" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="86,273 92,261 92,264 86,276" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="70,273 86,273 92,261 76,261" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-10-28" data-count="0">
+        <polygon points="69,299 85,299 85,302 69,302" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="85,299 91,287 91,290 85,302" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="69,299 85,299 91,287 75,287" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-10-29" data-count="1">
+        <polygon points="68,319 84,319 84,328 68,328" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="84,319 90,307 90,316 84,328" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="68,319 84,319 90,307 74,307" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-10-30" data-count="0">
+        <polygon points="67,351 83,351 83,354 67,354" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="83,351 89,339 89,342 83,354" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="67,351 83,351 89,339 73,339" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-10-31" data-count="0">
+        <polygon points="66,377 82,377 82,380 66,380" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="82,377 88,365 88,368 82,380" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="66,377 82,377 88,365 72,365" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-11-01" data-count="0">
+        <polygon points="65,403 81,403 81,406 65,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="81,403 87,391 87,394 81,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="65,403 81,403 87,391 71,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-11-08" data-count="0">
+        <polygon points="85,403 101,403 101,406 85,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="101,403 107,391 107,394 101,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="85,403 101,403 107,391 91,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-11-15" data-count="0">
+        <polygon points="105,403 121,403 121,406 105,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="121,403 127,391 127,394 121,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="105,403 121,403 127,391 111,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-11-22" data-count="0">
+        <polygon points="125,403 141,403 141,406 125,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="141,403 147,391 147,394 141,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="125,403 141,403 147,391 131,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-11-29" data-count="0">
+        <polygon points="145,403 161,403 161,406 145,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="161,403 167,391 167,394 161,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="145,403 161,403 167,391 151,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-12-06" data-count="0">
+        <polygon points="165,403 181,403 181,406 165,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="181,403 187,391 187,394 181,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="165,403 181,403 187,391 171,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-12-13" data-count="0">
+        <polygon points="185,403 201,403 201,406 185,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="201,403 207,391 207,394 201,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="185,403 201,403 207,391 191,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-12-20" data-count="0">
+        <polygon points="205,403 221,403 221,406 205,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="221,403 227,391 227,394 221,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="205,403 221,403 227,391 211,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2025-12-27" data-count="3">
+        <polygon points="225,390 241,390 241,406 225,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="241,390 247,378 247,394 241,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="225,390 241,390 247,378 231,378" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-01-03" data-count="1">
+        <polygon points="245,397 261,397 261,406 245,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="261,397 267,385 267,394 261,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="245,397 261,397 267,385 251,385" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-01-10" data-count="2">
+        <polygon points="265,393 281,393 281,406 265,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="281,393 287,381 287,394 281,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="265,393 281,393 287,381 271,381" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-01-17" data-count="0">
+        <polygon points="285,403 301,403 301,406 285,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="301,403 307,391 307,394 301,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="285,403 301,403 307,391 291,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-01-24" data-count="0">
+        <polygon points="305,403 321,403 321,406 305,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="321,403 327,391 327,394 321,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="305,403 321,403 327,391 311,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-01-31" data-count="0">
+        <polygon points="325,403 341,403 341,406 325,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="341,403 347,391 347,394 341,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="325,403 341,403 347,391 331,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-02-07" data-count="0">
+        <polygon points="345,403 361,403 361,406 345,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="361,403 367,391 367,394 361,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="345,403 361,403 367,391 351,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-02-14" data-count="0">
+        <polygon points="365,403 381,403 381,406 365,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="381,403 387,391 387,394 381,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="365,403 381,403 387,391 371,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-02-21" data-count="0">
+        <polygon points="385,403 401,403 401,406 385,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="401,403 407,391 407,394 401,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="385,403 401,403 407,391 391,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-02-28" data-count="0">
+        <polygon points="405,403 421,403 421,406 405,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="421,403 427,391 427,394 421,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="405,403 421,403 427,391 411,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-03-07" data-count="0">
+        <polygon points="425,403 441,403 441,406 425,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="441,403 447,391 447,394 441,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="425,403 441,403 447,391 431,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-03-14" data-count="0">
+        <polygon points="445,403 461,403 461,406 445,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="461,403 467,391 467,394 461,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="445,403 461,403 467,391 451,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-03-21" data-count="0">
+        <polygon points="465,403 481,403 481,406 465,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="481,403 487,391 487,394 481,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="465,403 481,403 487,391 471,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-03-28" data-count="5">
+        <polygon points="485,385 501,385 501,406 485,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="501,385 507,373 507,394 501,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="485,385 501,385 507,373 491,373" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-04-04" data-count="0">
+        <polygon points="505,403 521,403 521,406 505,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="521,403 527,391 527,394 521,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="505,403 521,403 527,391 511,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-04-11" data-count="0">
+        <polygon points="525,403 541,403 541,406 525,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="541,403 547,391 547,394 541,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="525,403 541,403 547,391 531,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-04-18" data-count="2">
+        <polygon points="545,393 561,393 561,406 545,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="561,393 567,381 567,394 561,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="545,393 561,393 567,381 551,381" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-04-25" data-count="0">
+        <polygon points="565,403 581,403 581,406 565,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="581,403 587,391 587,394 581,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="565,403 581,403 587,391 571,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-05-02" data-count="0">
+        <polygon points="585,403 601,403 601,406 585,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="601,403 607,391 607,394 601,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="585,403 601,403 607,391 591,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-05-09" data-count="0">
+        <polygon points="605,403 621,403 621,406 605,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="621,403 627,391 627,394 621,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="605,403 621,403 627,391 611,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-05-16" data-count="0">
+        <polygon points="625,403 641,403 641,406 625,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="641,403 647,391 647,394 641,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="625,403 641,403 647,391 631,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-05-23" data-count="0">
+        <polygon points="645,403 661,403 661,406 645,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="661,403 667,391 667,394 661,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="645,403 661,403 667,391 651,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-05-30" data-count="0">
+        <polygon points="665,403 681,403 681,406 665,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="681,403 687,391 687,394 681,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="665,403 681,403 687,391 671,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-06-06" data-count="4">
+        <polygon points="685,388 701,388 701,406 685,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="701,388 707,376 707,394 701,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="685,388 701,388 707,376 691,376" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-06-13" data-count="8">
+        <polygon points="705,380 721,380 721,406 705,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="721,380 727,368 727,394 721,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="705,380 721,380 727,368 711,368" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-06-20" data-count="1">
+        <polygon points="725,397 741,397 741,406 725,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="741,397 747,385 747,394 741,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="725,397 741,397 747,385 731,385" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-06-27" data-count="0">
+        <polygon points="745,403 761,403 761,406 745,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="761,403 767,391 767,394 761,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="745,403 761,403 767,391 751,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-07-04" data-count="0">
+        <polygon points="765,403 781,403 781,406 765,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="781,403 787,391 787,394 781,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="765,403 781,403 787,391 771,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-07-11" data-count="42">
+        <polygon points="785,346 801,346 801,406 785,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="801,346 807,334 807,394 801,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="785,346 801,346 807,334 791,334" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-07-18" data-count="141">
+        <polygon points="805,297 821,297 821,406 805,406" fill="#18562B" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="821,297 827,285 827,394 821,406" fill="#103F1E" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="805,297 821,297 827,285 811,285" fill="#216E39" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-07-25" data-count="0">
+        <polygon points="825,403 841,403 841,406 825,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="841,403 847,391 847,394 841,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="825,403 841,403 847,391 831,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-08-01" data-count="0">
+        <polygon points="845,403 861,403 861,406 845,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="861,403 867,391 867,394 861,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="845,403 861,403 867,391 851,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-08-08" data-count="0">
+        <polygon points="865,403 881,403 881,406 865,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="881,403 887,391 887,394 881,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="865,403 881,403 887,391 871,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-08-15" data-count="0">
+        <polygon points="885,403 901,403 901,406 885,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="901,403 907,391 907,394 901,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="885,403 901,403 907,391 891,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-08-22" data-count="19">
+        <polygon points="905,366 921,366 921,406 905,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="921,366 927,354 927,394 921,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="905,366 921,366 927,354 911,354" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-08-29" data-count="0">
+        <polygon points="925,403 941,403 941,406 925,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="941,403 947,391 947,394 941,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="925,403 941,403 947,391 931,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-09-05" data-count="26">
+        <polygon points="945,359 961,359 961,406 945,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="961,359 967,347 967,394 961,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="945,359 961,359 967,347 951,347" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-09-12" data-count="0">
+        <polygon points="965,403 981,403 981,406 965,406" fill="#D5D9E0" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="981,403 987,391 987,394 981,406" fill="#BFC5D1" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="965,403 981,403 987,391 971,391" fill="#EBEDF0" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-09-19" data-count="17">
+        <polygon points="985,368 1001,368 1001,406 985,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1001,368 1007,356 1007,394 1001,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="985,368 1001,368 1007,356 991,356" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-09-26" data-count="21">
+        <polygon points="1005,364 1021,364 1021,406 1005,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1021,364 1027,352 1027,394 1021,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1005,364 1021,364 1027,352 1011,352" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-10-03" data-count="55">
+        <polygon points="1025,338 1041,338 1041,406 1025,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1041,338 1047,326 1047,394 1041,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1025,338 1041,338 1047,326 1031,326" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-10-10" data-count="49">
+        <polygon points="1045,342 1061,342 1061,406 1045,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1061,342 1067,330 1067,394 1061,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1045,342 1061,342 1067,330 1051,330" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-10-17" data-count="23">
+        <polygon points="1065,362 1081,362 1081,406 1065,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1081,362 1087,350 1087,394 1081,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1065,362 1081,362 1087,350 1071,350" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+      <g class="building" data-date="2026-10-24" data-count="57">
+        <polygon points="1085,337 1101,337 1101,406 1085,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1101,337 1107,325 1107,394 1101,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1085,337 1101,337 1107,325 1091,325" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+  <g class="legend" transform="translate(985, 462)">
+    <text x="-32" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#57606A">Less</text>
+    <rect x="0" y="0" width="11" height="11" rx="2" fill="#EBEDF0" stroke="#D0D7DE" stroke-width="0.5"/>
+    <rect x="15" y="0" width="11" height="11" rx="2" fill="#9BE9A8"/>
+    <rect x="30" y="0" width="11" height="11" rx="2" fill="#40C463"/>
+    <rect x="45" y="0" width="11" height="11" rx="2" fill="#30A14E"/>
+    <rect x="60" y="0" width="11" height="11" rx="2" fill="#216E39"/>
+    <text x="78" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#57606A">More</text>
+  </g>
+
+</svg>
