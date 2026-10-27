@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30,40&height=220&section=header&text=Nikhil%20Dhawan&fontSize=44&fontAlignY=36&animation=fadeIn&desc=%F0%9F%9A%80%20Founder%20%40DevSparks%20India%20%7C%20Full-Stack%20Architect%20%7C%20FinTech%20%26%20AI%20Builder&descAlignY=62&descSize=18" width="100%" alt="Nikhil Dhawan Banner" />
+  <img src="https://raw.githubusercontent.com/nkdhawan76/nkdhawan76/main/assets/banner.svg" width="100%" alt="Nikhil Dhawan Banner" />
 </div>
 
 <div align="center">
