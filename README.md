@@ -136,25 +136,6 @@
 
 ---
 
-### 🏙️ The Contribution Skyline — "As a City"
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/nkdhawan76/nkdhawan76/main/assets/github-city-contributions.png" alt="Nikhil Dhawan Contribution City Skyline" width="100%" />
-</div>
-
-<p align="center">
-  <i>"As a city — every day becomes a building, as tall as that day's commits.<br/>
-  The city rises front to back, then points at my biggest day: <b>128 on 7 Mar 2026</b>."</i>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Contributions_in_the_last_year-3%2C030%2B-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="3,030 contributions in the last year" />
-  <img src="https://img.shields.io/badge/All--Time_Peak-128_Commits_%2F_Day-8B5CF6?style=for-the-badge&logo=git&logoColor=white" alt="Peak 128 Commits" />
-  <img src="https://img.shields.io/badge/Architecture-3D_Isometric_Commit_Skyline-38B2AC?style=for-the-badge&logo=three.js&logoColor=white" alt="3D Skyline" />
-</p>
-
----
-
 ### 📊 GitHub Activity & Real-Time Analytics
 
 <div align="center">
