@@ -142,15 +142,15 @@
   <table border="0">
     <tr>
       <td valign="top" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=nkdhawan76&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="100%" alt="Nikhil Dhawan's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=nkdhawan76&show_icons=true&hide_border=false&count_private=true" width="100%" alt="Nikhil Dhawan's GitHub Stats" />
       </td>
       <td valign="top" width="50%">
-        <img src="https://streak-stats.demolab.com/?user=nkdhawan76&theme=tokyonight&hide_border=false" width="100%" alt="Nikhil Dhawan's GitHub Streak" />
+        <img src="https://streak-stats.demolab.com/?user=nkdhawan76&hide_border=false" width="100%" alt="Nikhil Dhawan's GitHub Streak" />
       </td>
     </tr>
   </table>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkdhawan76&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkdhawan76&layout=compact&hide_border=false" alt="Top Languages" />
 </div>
 
 ---
