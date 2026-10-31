@@ -1,13 +1,13 @@
-<svg width="100%" height="auto" viewBox="0 0 1185 486" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="auto" viewBox="0 0 1205 486" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .building { transition: transform 0.2s ease; cursor: pointer; }
     .building:hover { opacity: 0.85; }
   </style>
-  <rect width="1185" height="486" rx="12" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
+  <rect width="1205" height="486" rx="12" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
   
   <!-- Header Title -->
   <text x="30" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#24292F">
-    3,131 contributions in the last year
+    3,239 contributions in the last year
   </text>
   <text x="30" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#57609A">
     🏙️ 3D Contribution Skyline — Small buildings = few commits, Skyscrapers = high commit volume
@@ -440,7 +440,14 @@
       </g>
     
 
-  <g class="legend" transform="translate(985, 462)">
+      <g class="building" data-date="2026-10-31" data-count="108">
+        <polygon points="1105,310 1121,310 1121,406 1105,406" fill="#18562B" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1121,310 1127,298 1127,394 1121,406" fill="#103F1E" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1105,310 1121,310 1127,298 1111,298" fill="#216E39" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      </g>
+    
+
+  <g class="legend" transform="translate(1005, 462)">
     <text x="-32" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#57606A">Less</text>
     <rect x="0" y="0" width="11" height="11" rx="2" fill="#EBEDF0" stroke="#D0D7DE" stroke-width="0.5"/>
     <rect x="15" y="0" width="11" height="11" rx="2" fill="#9BE9A8"/>
