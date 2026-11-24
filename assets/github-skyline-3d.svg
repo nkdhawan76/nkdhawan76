@@ -7,7 +7,7 @@
   
   <!-- Header Title -->
   <text x="30" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#24292F">
-    3,693 contributions in the last year
+    3,918 contributions in the last year
   </text>
   <text x="30" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#57609A">
     🏙️ 3D Contribution Skyline — Small buildings = few commits, Skyscrapers = high commit volume
@@ -301,16 +301,16 @@
     
 
       <g class="building" data-date="2026-07-11" data-count="42">
-        <polygon points="705,346 721,346 721,406 705,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
-        <polygon points="721,346 727,334 727,394 721,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
-        <polygon points="705,346 721,346 727,334 711,334" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+        <polygon points="705,346 721,346 721,406 705,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="721,346 727,334 727,394 721,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="705,346 721,346 727,334 711,334" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
       </g>
     
 
       <g class="building" data-date="2026-07-18" data-count="141">
-        <polygon points="725,297 741,297 741,406 725,406" fill="#18562B" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
-        <polygon points="741,297 747,285 747,394 741,406" fill="#103F1E" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
-        <polygon points="725,297 741,297 747,285 731,285" fill="#216E39" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+        <polygon points="725,297 741,297 741,406 725,406" fill="#26873F" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="741,297 747,285 747,394 741,406" fill="#1D6B31" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="725,297 741,297 747,285 731,285" fill="#30A14E" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
       </g>
     
 
@@ -391,10 +391,10 @@
       </g>
     
 
-      <g class="building" data-date="2026-10-10" data-count="49">
-        <polygon points="965,342 981,342 981,406 965,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
-        <polygon points="981,342 987,330 987,394 981,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
-        <polygon points="965,342 981,342 987,330 971,330" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      <g class="building" data-date="2026-10-10" data-count="80">
+        <polygon points="965,324 981,324 981,406 965,406" fill="#34A853" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="981,324 987,312 987,394 981,406" fill="#288842" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="965,324 981,324 987,312 971,312" fill="#40C463" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
       </g>
     
 
@@ -413,9 +413,9 @@
     
 
       <g class="building" data-date="2026-10-31" data-count="108">
-        <polygon points="1025,310 1041,310 1041,406 1025,406" fill="#18562B" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
-        <polygon points="1041,310 1047,298 1047,394 1041,406" fill="#103F1E" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
-        <polygon points="1025,310 1041,310 1047,298 1031,298" fill="#216E39" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+        <polygon points="1025,310 1041,310 1041,406 1025,406" fill="#26873F" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1041,310 1047,298 1047,394 1041,406" fill="#1D6B31" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1025,310 1041,310 1047,298 1031,298" fill="#30A14E" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
       </g>
     
 
@@ -433,10 +433,10 @@
       </g>
     
 
-      <g class="building" data-date="2026-11-21" data-count="27">
-        <polygon points="1085,358 1101,358 1101,406 1085,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
-        <polygon points="1101,358 1107,346 1107,394 1101,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
-        <polygon points="1085,358 1101,358 1107,346 1091,346" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
+      <g class="building" data-date="2026-11-21" data-count="28">
+        <polygon points="1085,357 1101,357 1101,406 1085,406" fill="#7AD188" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5"/>
+        <polygon points="1101,357 1107,345 1107,394 1101,406" fill="#5CB96B" stroke="#000000" stroke-opacity="0.1" stroke-width="0.5"/>
+        <polygon points="1085,357 1101,357 1107,345 1091,345" fill="#9BE9A8" stroke="#000000" stroke-opacity="0.06" stroke-width="0.5"/>
       </g>
     
 
